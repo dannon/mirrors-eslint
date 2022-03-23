@@ -1,7 +1,7 @@
 -   id: eslint
     name: eslint
     description: ''
-    entry: eslint
+    entry: sh -c 'cd client && eslint'
     language: node
     'types': [javascript]
     args: []
