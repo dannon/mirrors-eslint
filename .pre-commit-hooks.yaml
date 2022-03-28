@@ -2,9 +2,8 @@
     name: eslint
     description: ''
     entry: sh -c 'cd client && eslint'
-    language: node
+    language: system
     'types': [javascript]
     args: []
     require_serial: false
-    additional_dependencies: ["eslint@8.11.0"]
     minimum_pre_commit_version: '0'
