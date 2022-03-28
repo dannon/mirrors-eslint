@@ -1,7 +1,7 @@
 -   id: eslint
     name: eslint
     description: ''
-    entry: sh -c 'cd client && yarn eslint'
+    entry: make client-eslint
     language: system
     'types': [javascript]
     args: []
